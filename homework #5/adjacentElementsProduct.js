@@ -2,7 +2,6 @@ const adjacentElementsProduct = (inputArray) => {
     let arr = [];
     for (let i = 1; i < inputArray.length; i++) {
         arr.push(inputArray[i] * inputArray[i - 1]);
-        console.log(arr);
     }
     function compareNum(a, b) {
         return a - b;
