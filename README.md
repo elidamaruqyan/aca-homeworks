@@ -1,3 +1,3 @@
 # aca-homeworks
 
-Some tasks that I solve during my aca training course.
+Tasks that have been solved during my  ACA training course.
