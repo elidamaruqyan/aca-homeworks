@@ -21,7 +21,6 @@ const adjacentElementsProduct = (inputArray) => {
 
 adjacentElementsProduct([5, 6, -4, 2, 10, 2, 23]);
 
-
 /****** with methods************/
 // const adjacentElementsProduct = (inputArray) => {
 //     let arr = [];
