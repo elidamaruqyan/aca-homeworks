@@ -3,7 +3,6 @@ const checkPalindrome = (inputString) => {
     let lowRegStr = inputString.toLowerCase().replace(re, "");
     let reverseStr = lowRegStr.split("").reverse().join("");
     return reverseStr === lowRegStr;
-    console.log(re);
 };
 
 checkPalindrome("aba");

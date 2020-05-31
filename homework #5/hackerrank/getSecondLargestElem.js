@@ -1,4 +1,6 @@
 /*********Tip 1**********/
+
+/******** half done  (remove duplicate elements) ***********/
 let numbers = [2, 3, 6, 6, 5];
 
 const getSecondLargestElem = (nums) => {
@@ -14,6 +16,8 @@ const getSecondLargestElem = (nums) => {
 };
 
 getSecondLargestElem(numbers);
+
+
 
 /*********Tip 2**********/
 const getSecondLargest = (nums) => {
