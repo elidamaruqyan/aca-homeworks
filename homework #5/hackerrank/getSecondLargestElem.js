@@ -3,6 +3,11 @@
 /******** half done  (remove duplicate elements) ***********/
 let numbers = [2, 3, 6, 6, 5];
 
+const uniqueChars = numbers.filter((c, index) => {
+    return numbers.indexOf(c) === index;
+});
+
+
 const getSecondLargestElem = (nums) => {
     let maxElem = Math.max(...nums);
     let secondLargest;

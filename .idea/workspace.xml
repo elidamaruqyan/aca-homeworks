@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba99685d-e048-4687-8bc3-8592e2f5336a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/centuryFromYear.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework #5/codeSignal/centuryFromYear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/findMultipleObject.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,119 +16,51 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="53" />
+          <entry key="js" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="53" />
+          <entry key="JavaScript" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="509" />
+          <entry key="js" value="1307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="509" />
+          <entry key="JavaScript" value="1307" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/compareArrays.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/adjacentElementsProduct.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/centuryFromYear.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/makeArrayConsecutive2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/arithmeticOperators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/dataTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/conditionalStatements-IfElse.js">
+        <entry file="file://$PROJECT_DIR$/homework #7/filter/filtersByField.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js">
+        <entry file="file://$PROJECT_DIR$/homework #7/map/parseStringIntegers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -194,7 +123,22 @@
         <option value="$PROJECT_DIR$/homework #5/findMultipleObject.js" />
         <option value="$PROJECT_DIR$/homework #5/codeSignal/centuryFromYear.js" />
         <option value="$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js" />
+        <option value="$PROJECT_DIR$/homework #7/map.js" />
+        <option value="$PROJECT_DIR$/homework #7/arrayLength.js" />
+        <option value="$PROJECT_DIR$/homework #7/parseStringIntegers.js" />
+        <option value="$PROJECT_DIR$/homework #7/filter.js" />
+        <option value="$PROJECT_DIR$/homework #7/map/arrayUserName..js" />
+        <option value="$PROJECT_DIR$/homework #7/map/arrayUserName.js" />
+        <option value="$PROJECT_DIR$/homework #7/map/arrayLength.js" />
         <option value="$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js" />
+        <option value="$PROJECT_DIR$/homework #7/map/map.js" />
+        <option value="$PROJECT_DIR$/homework #7/filter/filter.js" />
+        <option value="$PROJECT_DIR$/homework #7/reduce/reduce.js" />
+        <option value="$PROJECT_DIR$/homework #7/reduce/average.js" />
+        <option value="$PROJECT_DIR$/homework #7/map/getUserNameAndLength.js" />
+        <option value="$PROJECT_DIR$/homework #7/map/parseStringIntegers.js" />
+        <option value="$PROJECT_DIR$/homework #7/filter/removeUser.js" />
+        <option value="$PROJECT_DIR$/homework #7/filter/filtersByField.js" />
       </list>
     </option>
   </component>
@@ -204,9 +148,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="3" />
+    <option name="y" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1045" />
   </component>
@@ -216,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,24 +173,31 @@
             <path>
               <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework #5" type="462c0819:PsiDirectoryNode" />
+              <item name="homework #7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework #5" type="462c0819:PsiDirectoryNode" />
-              <item name="codeSignal" type="462c0819:PsiDirectoryNode" />
+              <item name="homework #7" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
-              <item name="homework #5" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="homework #7" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="homework #7" type="462c0819:PsiDirectoryNode" />
+              <item name="reduce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +208,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vostro\Desktop\aca-homeworks\homework #7\filter" />
+      <recent name="C:\Users\Vostro\Desktop\aca-homeworks\homework #7\map" />
       <recent name="C:\Users\Vostro\Desktop\aca-homeworks\homework #5\codeSignal" />
     </key>
   </component>
@@ -280,25 +235,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590708393619</updated>
-      <workItem from="1590708394900" duration="14167000" />
+      <workItem from="1590708394900" duration="14516000" />
+      <workItem from="1591440160407" duration="1175000" />
+      <workItem from="1591461618560" duration="494000" />
+      <workItem from="1591466585591" duration="3688000" />
+      <workItem from="1591473559391" duration="6067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14167000" />
+    <option name="totallyTimeSpent" value="25940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -306,10 +260,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,27 +278,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/centuryFromYear.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkPalindrome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adjacentElementsProduct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/centuryFromYear.js" />
+    <entry file="file://$PROJECT_DIR$/checkPalindrome.js" />
+    <entry file="file://$PROJECT_DIR$/adjacentElementsProduct.js" />
     <entry file="file://$PROJECT_DIR$/homework #3/string/getTwoDigitDecimalCombination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -407,22 +348,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework #5/getSecondLargestElem.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework #5/findMultipleObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #5/getSecondLargestElem.js" />
+    <entry file="file://$PROJECT_DIR$/homework #5/findMultipleObject.js" />
     <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/helloWorld.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -468,14 +398,14 @@
     <entry file="file://$PROJECT_DIR$/homework #5/compareArrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/adjacentElementsProduct.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -483,13 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -503,14 +426,7 @@
     <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/arithmeticOperators.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/conditionalStatements-IfElse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -521,17 +437,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/functions.js">
+    <entry file="file://$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/map/arrayLength.js" />
     <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #5/hackerrank/conditionalStatements-IfElse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/reduce/reduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/map/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/reduce/average.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/filter/removeUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/map/getUserNameAndLength.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/filter/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/map/parseStringIntegers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework #7/filter/filtersByField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
