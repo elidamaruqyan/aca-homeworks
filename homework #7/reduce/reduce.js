@@ -1,12 +1,8 @@
-const reduce = (array, cb, initialValue) => {
-    let result = initialValue;
-    for (let i = 0; i < array.length; i++ ) {
-        result = cb.call(undefined, result, array[i], i, array);
+const reduce = (iterable, reduceFn, accumulator) => {
+    for(let i of iterable){
+        accumulator = reduceFn(accumulator, i);
     }
-    return result;
+    return accumulator;
 };
 
-reduce([1, 2, 3, 4, 5], (result, item) => {
-    result.push(item * 2);
-    return result;
-}, []); // [ 2, 4, 6, 8, 10 ]
+reduce([1,2,3], (acc,elem)=>acc+elem , 0); // 6
