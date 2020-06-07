@@ -15,9 +15,9 @@ const users = [
     },
 ];
 
-const filterByField = (arrayItems) => {
+const filterByField = (arrayItems, key) => {
     return arrayItems.filter((item) => {
-        if(item.isAstronaut){
+        if(item[key]){
             return item;
         }
     });
