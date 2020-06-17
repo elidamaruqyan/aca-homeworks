@@ -17,11 +17,12 @@ class Book {
       Book Title - ${this._title}
       Author of Book - ${this._author}   `;
     }
-    // @TODO
+
     isTheSameBook(book) {
-        if(book.title === this._title && book.author === this._auther) {
+        if (book.title === this._title && book.author === this._author) {
             return true;
         }
+
         return false;
     }
 }
@@ -67,7 +68,9 @@ class LibraryBook extends LibraryBookBase {
     toString() {
         return ` Books:
       Book Title - ${this._title}
-      Author of Book - ${this._author}   `;
+      Author of Book - ${this._author}
+      Book Id- ${this._bookId}
+      Book quantity- ${this._quantity}   `;
     }
 
     increaseQuantityBy(amount) {
@@ -134,6 +137,60 @@ class Reader {
         this._books = books;
     }
 
+    get firstName() {
+        return this._firstName;
+    }
+
+    set firstName(value) {
+        if (typeof value === "") {
+            throw new Error("Empty value");
+        }
+
+        this._firstName = value.trim();
+    }
+
+    get lastName() {
+        return this._lastName;
+    }
+
+    set lastName(value) {
+        if (typeof value === "") {
+            throw new Error("Empty value");
+        }
+
+        this._lastName = value.trim();
+    }
+
+    get readerId() {
+        return this._readerId;
+    }
+
+    set readerId(value) {
+        if (typeof value !== "number") {
+            throw new Error("Invalid value");
+        }
+
+        this._readerId = value;
+    }
+
+    get books() {
+        return this._books;
+    }
+    // ?
+    set books(value) {
+        const bookArr = [];
+        this.books = bookArr.push(value);
+    }
+
+    toString() {
+        return ` Reader Info:
+      Reader firstName - ${this._firstName}
+      Reader lastName - ${this._lastName}
+      Reader ID - ${this._readerId}
+      Reader books - ${this._books}
+    `;
+    }
+    //@TODO
     borrowBook(book, library) {
         const libraryBook = library.lendBook(book);
         if (libraryBook && libraryBook instanceof ReaderBook) {
@@ -146,20 +203,102 @@ class Reader {
 
 class Library {
     constructor(books, readers) {
-        this.books = books;
-        this.readers = readers;
+        this._books = books;
+        this._readers = readers;
+    }
+
+    get books() {
+        return this._books;
+    }
+
+    set books(value) {
+        const booksArray = [];
+        this._books = booksArray.push(value);
+    }
+
+    get readers() {
+        return this._readers;
     }
 
     doHaveBook(requestedBook) {
-        const includedBook = this.books.includes(requestedBook);
-        return includedBook
+        if (this.books.includes(requestedBook)) {
+            return true;
+        }
+
+        return false;
     }
+
     addBook(newBook) {
-        const newIncludedBook = this.books.includes(newBook);
-        return newIncludedBook
+        if (this.books.includes(newBook)) {
+            const newBookFindIndex = this.books.findIndex(
+                (book) => book._title === newBook._title
+            );
+            this.books[newBookFindIndex]._quantity += 1;
+            return this.books;
+        } else {
+            this.books.push(newBook);
+        }
+    }
+
+    //@TODO
+    addBooks(newBooks) {
+        if (this.books.includes(newBooks)) {
+            const newBookFindIndex = this.books.findIndex(
+                (book) => book._title === newBook._title
+            );
+            this.books[newBookFindIndex]._quantity += 1;
+            return this.books;
+        } else {
+            this.books.push(newBooks);
+            return this.books;
+        }
+    }
+
+    checkReaderId(readerId) {
+        const findReaderId = this.readers.findIndex(
+            (reader) => reader.readerId === readerId
+        );
+    }
+
+    lendBook(book, readerId) {
+        const findBookIndex = this.books.findIndex(
+            (book) => book._title === book._title
+        );
+        const findedBookTitle = this.books[findBookIndex]._title;
+        const findRederIndex = this.readers.findIndex(
+            (reader) => reader._readerId === readerId._readerId
+        );
+        const findedReader = this.readers[findRederIndex]._readerId;
+
+        if (findedReader && findedBookTitle) {
+            return this.books;
+        }
     }
 }
 
-const book1 = new Book("Jane Eyre", "Charlotte Bronte");
-const reader1 = new Reader("elon", "mask", 1, "book");
-console.log(reader1);
+const bookInstance = new Book("Jane Eyre", "Charlotte Bronte");
+const libBookBase = new LibraryBookBase(
+    "The Old Man and the Sea",
+    "Ernest Hemingway",
+    5
+);
+const libBook = new LibraryBook("Oliver Twist", "Charles Dickens", 1, 500);
+const readerBookInstance = new ReaderBook(
+    "The Picture of Dorian Gray",
+    "Oscar Wilde",
+    1,
+    "15.06.2020",
+    false
+);
+const readerInstance = new Reader("Elon", "Mask", 1, readerBookInstance);
+const libraryInstance = new Library([libBook], [readerInstance]);
+
+// console.log(bookInstance.isTheSameBook(bookInstance));
+// console.log(libBookBase.toString());
+// console.log(libBook.decreaseQuantityBy(10));
+// console.log(readerInstance.borrowBook(new Book('Jane Eyre', 'Charlotte Bronte'), new Library('books', "readers") )) ?
+// console.log(readerInstance.borrowBook(bookInstance, libraryInstance)); // ?
+
+// console.log(libraryInstance.addBook(libBook));
+// console.log(libraryInstance.addBooks(new LibraryBook('The Picture of Dorian Gray', 'Oscar Wilde', 1, 1)));
+// console.log(libraryInstance.lendBook(readerBookInstance, readerInstance))
