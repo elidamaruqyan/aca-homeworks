@@ -6,12 +6,15 @@ class Account {
     }
 
     static identifyAccounts(accountFirst, accountSecond) {
-        const checkIdentify =
+        if (
             accountFirst.id === accountSecond.id &&
             accountFirst.name === accountSecond.name &&
-            accountFirst.balance === accountSecond.balance;
+            accountFirst.balance === accountSecond.balance
+        ) {
+            return true;
+        }
 
-        return checkIdentify;
+        return false;
     }
 
     get name() {
@@ -25,7 +28,7 @@ class Account {
             throw new Error("Empty value!");
         }
 
-        this._name = value;
+        this._fname = value;
     }
 
     get id() {
@@ -72,6 +75,6 @@ class Account {
     }
 }
 
-const account1 = new Account(1, "Elon", 1500);
+const accountInstance = new Account(1, "Elon", 1500);
 
-console.log(account1.transferTo(20, 52));
+console.log(accountInstance.transferTo(20, 52));

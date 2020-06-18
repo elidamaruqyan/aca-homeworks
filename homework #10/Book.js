@@ -1,3 +1,4 @@
+/** There are mistakes that need to be corrected **/
 class Book {
     constructor(title, author) {
         this._title = title;

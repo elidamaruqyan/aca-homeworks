@@ -1,3 +1,4 @@
+/** We did it during classwork **/
 class Person {
     constructor(fname, lname, gender, age) {
         this.fname = fname;
