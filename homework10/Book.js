@@ -20,11 +20,7 @@ class Book {
     }
 
     isTheSameBook(book) {
-        if (book.title === this._title && book.author === this._author) {
-            return true;
-        }
-
-        return false;
+        return book.title === this.title && book.author === this.author
     }
 }
 
@@ -41,9 +37,9 @@ class LibraryBookBase extends Book {
 
     toString() {
         return ` Books:
-      Book Title - ${this._title}
-      Author of Book - ${this._author}
-      Book Id- ${this._bookId}     `;
+      Book Title - ${this.title}
+      Author of Book - ${this.author}
+      Book Id- ${this.bookId}     `;
     }
 }
 
@@ -68,10 +64,10 @@ class LibraryBook extends LibraryBookBase {
 
     toString() {
         return ` Books:
-      Book Title - ${this._title}
-      Author of Book - ${this._author}
-      Book Id- ${this._bookId}
-      Book quantity- ${this._quantity}   `;
+      Book Title - ${this.title}
+      Author of Book - ${this.author}
+      Book Id- ${this.bookId}
+      Book quantity- ${this.quantity}   `;
     }
 
     increaseQuantityBy(amount) {
@@ -121,11 +117,11 @@ class ReaderBook extends LibraryBookBase {
 
     toString() {
         return ` Books:
-      Book Title - ${this._title}
-      Author of Book - ${this._author}
-      Book ID - ${this._bookId}
-      Expiration Date - ${this._expirationDate}
-      isReturned - ${this._isReturned} 
+      Book Title - ${this.title}
+      Author of Book - ${this.author}
+      Book ID - ${this.bookId}
+      Expiration Date - ${this.expirationDate}
+      isReturned - ${this.isReturned} 
     `;
     }
 }
@@ -177,20 +173,23 @@ class Reader {
     get books() {
         return this._books;
     }
+
     // ?
     set books(value) {
         const bookArr = [];
         this.books = bookArr.push(value);
+        return bookArr
     }
 
     toString() {
         return ` Reader Info:
-      Reader firstName - ${this._firstName}
-      Reader lastName - ${this._lastName}
-      Reader ID - ${this._readerId}
-      Reader books - ${this._books}
+      Reader firstName - ${this.firstName}
+      Reader lastName - ${this.lastName}
+      Reader ID - ${this.readerId}
+      Reader books - ${this.books}
     `;
     }
+
     //@TODO
     borrowBook(book, library) {
         const libraryBook = library.lendBook(book);
@@ -222,11 +221,7 @@ class Library {
     }
 
     doHaveBook(requestedBook) {
-        if (this.books.includes(requestedBook)) {
-            return true;
-        }
-
-        return false;
+        return this.books.includes(requestedBook)
     }
 
     addBook(newBook) {
