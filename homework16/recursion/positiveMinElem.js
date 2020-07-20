@@ -1,4 +1,4 @@
-// If it works don't touch it ))
+// As long as it is working don't touch ))
 
 const min = (array) => {
     let numArray = array;
