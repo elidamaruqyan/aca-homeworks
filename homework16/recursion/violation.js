@@ -1,3 +1,8 @@
+/**
+ * Return index of element, where sorting order is violated otherwise -1
+ * @param {Array}  arr of numbers
+ */
+
 //during classwork
 function findViolatorIndex(arr) {
     function iter(tmp, idx) {
@@ -18,5 +23,5 @@ function findViolatorIndex(arr) {
 }
 
 
-findViolatorIndex([-9, -4, -4, 3, 12, 4, 5]);
-findViolatorIndex([1, 2, 3, 4, 5, 6]);
+findViolatorIndex([2, 12, 15, 48, 64]); //-1
+findViolatorIndex([-9, -4, -4, 3, 12, 4, 5]); //5

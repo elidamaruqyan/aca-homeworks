@@ -1,5 +1,9 @@
-// As long as it is working don't touch ))
+/**
+ * Returns the minimal positive element from the array otherwise -1
+ * @param {Array}  array of numbers
+ */
 
+// As long as it is working don't touch ))
 const min = (array) => {
     let numArray = array;
     numArray.sort((a, b) => a - b);

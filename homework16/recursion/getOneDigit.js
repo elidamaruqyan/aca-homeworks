@@ -1,3 +1,8 @@
+/**
+ * Returns the sum of all numbers passed to the function.
+ * @param {...number} num - A positive or negative number.
+ */
+
 const getOneDigit = (num) => {
     let stringifiedNumber = num.toString().split("");
 

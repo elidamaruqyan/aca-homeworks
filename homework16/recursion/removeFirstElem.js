@@ -1,3 +1,8 @@
+/**
+ * Return array removing  the first element
+ * @param {Array}  array of numbers
+ */
+
 const removeFirstElem = (array) =>{
     [first, ...rest] = array;
 

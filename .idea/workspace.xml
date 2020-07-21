@@ -3,44 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ba99685d-e048-4687-8bc3-8592e2f5336a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #10/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework10/Account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #10/AuthorAndBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework10/AuthorAndBook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #10/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework10/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #10/PersonAndStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework10/PersonAndStudent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/arrayMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/arrayMethods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/evenlySpacedElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/evenlySpacedElements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/filterRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/filterRange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/findById.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/findById.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/getSubset.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/getSubset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/array/removeWordsFromArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/array/removeWordsFromArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/object/checkObjectLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/object/checkObjectLength.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/object/isKeyAndValueInObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/object/isKeyAndValueInObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/string/getTwoDigitDecimalCombination.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/string/getTwoDigitDecimalCombination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #3/string/toUppercase.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/string/toUppercase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/adjacentElementsProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/codeSignal/adjacentElementsProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/centuryFromYear.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/codeSignal/centuryFromYear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/checkPalindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/codeSignal/checkPalindrome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/codeSignal/makeArrayConsecutive2.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/codeSignal/makeArrayConsecutive2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/compareArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/compareArrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/arithmeticOperators.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/arithmeticOperators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/conditionalStatements-IfElse.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/conditionalStatements-IfElse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/dataTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/dataTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/getSecondLargestElem.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/getSecondLargestElem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/helloWorld.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/helloWorld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/letAndConst.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/letAndConst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/loops.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/loops.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/switch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/throw.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/throw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #5/hackerrank/tryCatchFinally.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework5/hackerrank/tryCatchFinally.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/filter/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/filter/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/filter/filtersByField.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/filter/filtersByField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/filter/removeUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/filter/removeUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/map/getUserNameAndLength.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/map/getUserNameAndLength.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/map/parseStringIntegers.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/map/parseStringIntegers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/reduce/average.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/reduce/average.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework #7/reduce/reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/reduce/reduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/map-set/difference.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/map-set/difference.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/flattenArr.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/flattenArr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/getOneDigit.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/getOneDigit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/odd.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/odd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/positiveMinElem.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/positiveMinElem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/removeFirstElem.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/removeFirstElem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/recursion/violation.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/recursion/violation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework16/sort/mergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework16/sort/mergeSort.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,106 +24,61 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="19" />
+          <entry key="js" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="19" />
+          <entry key="JavaScript" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="442" />
+          <entry key="js" value="1166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="442" />
+          <entry key="JavaScript" value="1166" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/flattenArr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework16/sort/mergeSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/getOneDigit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/odd.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/positiveMinElem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/removeFirstElem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/recursion/violation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework16/map-set/difference.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework16/map-set/symmetricDifference.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -171,10 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework16/map-set/symmetricDifference.js">
+        <entry file="file://$PROJECT_DIR$/homework16/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -209,17 +134,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework16/recursion/violation.js" />
         <option value="$PROJECT_DIR$/homework16/map-set/dictionary.js" />
         <option value="$PROJECT_DIR$/homework16/map-set/symmetricDifference.js" />
-        <option value="$PROJECT_DIR$/homework16/recursion/removeFirstElem.js" />
-        <option value="$PROJECT_DIR$/homework16/recursion/positiveMinElem.js" />
         <option value="$PROJECT_DIR$/homework16/tree.js" />
-        <option value="$PROJECT_DIR$/homework16/recursion/odd.js" />
-        <option value="$PROJECT_DIR$/homework16/recursion/flattenArr.js" />
-        <option value="$PROJECT_DIR$/homework16/map-set/difference.js" />
-        <option value="$PROJECT_DIR$/homework16/sort/mergeSort.js" />
         <option value="$PROJECT_DIR$/homework16/recursion/getOneDigit.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/odd.js" />
+        <option value="$PROJECT_DIR$/homework16/sort/mergeSort.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/removeFirstElem.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/violation.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/positiveMinElem.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/flattenArr.js" />
+        <option value="$PROJECT_DIR$/homework16/recursion/reverseLeft.js" />
+        <option value="$PROJECT_DIR$/homework16/map-set/difference.js" />
       </list>
     </option>
   </component>
@@ -244,13 +170,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
@@ -269,10 +199,17 @@
               <item name="homework16" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aca-homeworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aca-homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="homework16" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -345,18 +282,19 @@
       <workItem from="1595235258795" duration="3941000" />
       <workItem from="1595245774493" duration="384000" />
       <workItem from="1595250599169" duration="4109000" />
-      <workItem from="1595272880776" duration="2657000" />
+      <workItem from="1595272880776" duration="5106000" />
+      <workItem from="1595310545843" duration="2799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18073000" />
+    <option name="totallyTimeSpent" value="23321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30063966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30383795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,7 +307,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,10 +322,65 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homework16/tree.js">
+    <entry file="file://$PROJECT_DIR$/homework5/hackerrank/arithmeticOperators.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework5/codeSignal/adjacentElementsProduct.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/flattenArr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/getOneDigit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/odd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/positiveMinElem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/map-set/symmetricDifference.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/removeFirstElem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/reverseLeft.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework16/recursion/violation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="72" lean-forward="true" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -401,66 +394,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/map-set/difference.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/map-set/symmetricDifference.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/odd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/positiveMinElem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/removeFirstElem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/violation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/flattenArr.js">
+    <entry file="file://$PROJECT_DIR$/homework16/tree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework16/sort/mergeSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework16/recursion/getOneDigit.js">
+    <entry file="file://$PROJECT_DIR$/homework16/map-set/difference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

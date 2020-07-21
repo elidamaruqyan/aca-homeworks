@@ -1,3 +1,9 @@
+/**
+ * Returns the odd or not of all numbers passed to the function.
+ * @param {...number} numbers - A positive or negative number.
+ */
+
+
 let num = 5555;
 let arr = num.toString().split("");
 

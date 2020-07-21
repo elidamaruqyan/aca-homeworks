@@ -1,3 +1,9 @@
+/**
+ * Returns the flattened array
+ *@param {Array}  arr of nested arrays.
+ */
+
+
 const flattenArr = (arr, res=[]) => {
     arr.forEach((item) => (
         Array.isArray(item)) ? flattenArr(item, res) : res.push(item)
