@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-wrapper {
+    min-height: 40px;
+    font-family: Arial;
+    font-size: 25px;
+    color: #c5a750;
+}
+
+.show-date-btn {
+    min-width: 150px;
+    height: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: unset;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.show-date-btn:focus {
+    outline: none;
+}

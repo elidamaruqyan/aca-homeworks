@@ -1,5 +1,3 @@
-
-
 const unsortedArr = [1, 5, 8, 6, 2, 6];
 
 const merge = (left, right) => {

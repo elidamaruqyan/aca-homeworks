@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-area {
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0 20px;
+    transition: border-color .9s ease;
+    text-align: left;
+}
+
+.input-area:focus {
+    outline: none;
+    border-bottom: 2px solid #c5a750;
+}
+
+.typed-text{
+    font-family: Arial;
+    font-size: 18px;
+    color: #c5a750;
+}

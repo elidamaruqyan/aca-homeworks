@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.slider-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 40%;
+    margin: 80px 0;
+}
+
+.left-side-wrapper {
+    width: 50%;
+    height: 100%;
+    background-color: #a8bedc;
+}
+
+.prev-slide, .next-slide {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #444444;
+    border-radius: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+    transition: 800ms;
+}
+
+.prev-slide:hover, .next-slide:hover {
+    box-shadow: 0 0 10px black;
+    background-color: #29a8e2;
+}
+
+.prev-slide {
+    left: 30px;
+}
+
+.next-slide {
+    right: 30px;
+}
+
+.slider__items {
+    position: relative;
+    display: none;
+}
+
+.slider__items img {
+    width: 100%;
+    position: relative;
+}
+
+.slider__items .caption {
+    max-width: 70%;
+    position: absolute;
+    top: 16%;
+    left: -80%;
+    text-align: justify;
+    transform: translateY(-10%);
+}
+
+.caption h2 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -.5px;
+    color: black;
+}
+
+.slider .slider__items.active {
+    display: block;
+    margin: 0 -50px;
+}
+
+/*
+-----------------------------
+        Animations
+-----------------------------
+*/
+
+.out-text {
+    animation: move-down-out 1.5s ease-in;
+}
+
+.out-img {
+    animation: move-up-out 1.5s ease-in;
+}
+
+.active .in-text {
+    animation: move-down-in 2s cubic-bezier(0, 0, 0.03, 0.98);
+}
+
+.active .in-img {
+    animation: move-up-in 2s cubic-bezier(0, 0, 0.03, 0.98);
+}
+
+@keyframes move-down-out {
+    0% {
+        margin-top: 0;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 800px;
+        opacity: 0;
+    }
+}
+
+@keyframes move-up-out {
+    0% {
+        top: -25px;
+        opacity: 1;
+    }
+    100% {
+        top: -800px;
+    }
+}
+
+@keyframes move-down-in {
+    100% {
+        margin-top: 0;
+    }
+    0% {
+        margin-top: 800px;
+    }
+}
+
+@keyframes move-up-in {
+    100% {
+        top: 0;
+    }
+    0% {
+        top: -800px;
+    }
+}
+
+
+
+
+
+
+
