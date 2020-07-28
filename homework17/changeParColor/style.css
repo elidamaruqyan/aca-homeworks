@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphs {
+    max-width: 30%;
+    font-family: Arial;
+    font-size: 14px;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+}

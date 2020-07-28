@@ -6,6 +6,7 @@
 body {
     background-color: #443e3e;
     color: white;
+    font-family: Arial;
 }
 
 .flex-container {
@@ -17,7 +18,7 @@ body {
 }
 
 .flex-items {
-    min-width: 35%;
+    width: 40%;
 }
 
 h2 {
@@ -68,6 +69,10 @@ h2 {
     outline: none;
 }
 
+.form-input.error {
+    border-bottom: 1px solid red;
+}
+
 .get-info {
     margin-top: 60px;
     border: 1px solid white;
@@ -78,6 +83,24 @@ h2 {
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* Error Block Style*/
+.error-block {
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    align-items: center;
+    font-size: 18px;
+    color: red;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding-left: 15px;
+    transform: translateX(-50%);
+    display: none;
 }
 
 /* Radio button */
@@ -144,6 +167,6 @@ h2 {
     background: white;
 }
 
-.form--radio-label{
+.form--radio-label {
     margin-bottom: 10px;
 }

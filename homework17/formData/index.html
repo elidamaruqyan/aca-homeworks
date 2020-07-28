@@ -13,30 +13,38 @@
         <form action="" class="user-form" id="form-data">
             <label for="name" class="form-label">
                 Name:
-                <input type="text" id="name" class="name form-input" placeholder="Name">
+                <input type="text" id="name" class="name form-input" placeholder="Name" name="Name">
             </label>
             <label for="last-name" class="form-label">
                 Last Name:
-                <input type="text" id="last-name" class="last-name form-input" placeholder="Last Name">
+                <input type="text" id="last-name" class="last-name form-input" placeholder="Last Name" name="Last Name">
             </label>
             <label for="age" class="form-label">
                 Age:
-                <input type="number" id="age" class="age form-input" placeholder="Age">
+                <input type="number" id="age" class="age form-input" placeholder="Age" name="Age">
             </label>
             <div class="form-label">
                 <span class="form--radio-label">Gender:</span>
                 <label class="container"><span class="radio-input-value">Male</span>
-                    <input type="radio" value="male" name="radio">
+                    <input type="radio" value="male" name="gender">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container"><span class="radio-input-value">Female</span>
-                    <input type="radio" value="Female" name="radio">
+                    <input type="radio" value="Female" name="gender">
                     <span class="checkmark"></span>
                 </label>
             </div>
+            <label for="position" class="form-label">
+                Position:
+                <input type="text" id="position" class="position form-input" placeholder="Position" name="position">
+            </label>
             <button type="submit" class="get-info" id="get-info">Submit Form</button>
         </form>
+
+        <p  id="result"></p>
     </div>
+
+    <div class="error-block"></div>
 </div>
 <script src="./index.js"></script>
 </body>

@@ -2,9 +2,14 @@ const slides = document.querySelectorAll('.slider__items');
 const nextSlideBtn = document.querySelector(".next-slide");
 const prevSlideBtn = document.querySelector(".prev-slide");
 let index = 0;
+let timer;
 
-//@Todo add setInterval
+window.addEventListener("load",function() {
+    timer = setInterval(function(){nextSlide()}, 4000);
+});
+
 nextSlideBtn.addEventListener("click", () => {
+    clearInterval(timer);
     nextSlide();
 });
 
@@ -37,5 +42,4 @@ const changeSlide = () => {
     }
 
     slides[index].classList.add("active");
-
 };

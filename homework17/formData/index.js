@@ -1,31 +1,31 @@
-// import { isRequired } from "./helpers/validate.helper.js";
-
 const formData = document.querySelector('#form-data');
 const submitForm = document.querySelector('#get-info');
-const valueArr = [];
+const result = document.querySelector('#result');
+const inputs = formData.elements;
+const values = {};
 
+
+const formSerialize = () => {
+    for (let i = 0; i < inputs.length - 1; i++) {
+        if (inputs[i].value.trim() === "") {
+            inputs[i].classList.add("error")
+        }else{
+            inputs[i].classList.remove("error");
+        }
+        if (inputs[i].type === "radio") {
+            if(inputs[i].checked) {
+                values[inputs[i].name] = inputs[i].value;
+            }
+        } else {
+            values[inputs[i].name] = inputs[i].value;
+        }
+
+    }
+    return values;
+};
 
 submitForm.addEventListener("click", (e) => {
     e.preventDefault();
-    for (let i = 0; i < formData.elements.length; i++) {
-        let inputValue = formData.elements[i].value;
-        console.log(inputValue);
-        valueArr.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
-    }
+    const response = formSerialize(formData);
+    result.innerText = JSON.stringify(response);
 });
-
-function displayRadioValue() {
-    document.getElementById("result").innerHTML = "";
-    var ele = document.getElementsByTagName('input');
-
-    for(i = 0; i < ele.length; i++) {
-
-        if(ele[i].type="radio") {
-
-            if(ele[i].checked)
-                document.getElementById("result").innerHTML
-                    += ele[i].name + " Value: "
-                    + ele[i].value + "<br>";
-        }
-    }
-}
