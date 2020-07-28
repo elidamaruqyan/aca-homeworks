@@ -14,6 +14,7 @@ nextSlideBtn.addEventListener("click", () => {
 });
 
 prevSlideBtn.addEventListener("click", () => {
+    clearInterval(timer);
     prevSlide();
 });
 
