@@ -33,11 +33,11 @@
 
 #apply {
     height: 40px;
-    color: #e66465;
-    background-color: unset;
     font-size: 20px;
-    border: 1px solid #e66465;
-    border-radius: 12px;
+    color: #000000;
+    background-color: unset;
+    border-radius: 0;
+    border: 1px solid #000000;
     cursor: pointer;
 }
 
