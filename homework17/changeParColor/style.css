@@ -1,13 +1,46 @@
 .wrapper {
     display: flex;
     justify-content: center;
+    padding: 50px 0;
+    font-family: Arial;
 }
 
 .paragraphs {
-    max-width: 30%;
-    font-family: Arial;
+    max-width: 20%;
     font-size: 14px;
     border: 1px solid black;
-    margin: 50px;
+    margin: 0 50px;
     padding: 50px;
+}
+
+.color-controller {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-controller label {
+    min-width: 30%;
+    margin-bottom: 25px;
+}
+
+.color-input {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+#apply {
+    height: 40px;
+    color: #e66465;
+    background-color: unset;
+    font-size: 20px;
+    border: 1px solid #e66465;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#apply:focus {
+    outline: none;
 }
