@@ -3,19 +3,18 @@
  * @param {Array}  array of numbers
  */
 
-const removeFirstElem = (array) =>{
-    [first, ...rest] = array;
+const removeFirstElem = (array) => {
+  [first, ...rest] = array;
 
-    if(!array.length) return [];
+  if (!array.length) return [];
 
-    if(first){
-        return array.slice(1)
-    }
+  if (first) {
+    return array.slice(1);
+  }
 
-    return(removeFirstElem(array))
-
+  return removeFirstElem(array);
 };
 
-removeFirstElem([6, 78, 'n', 0, 1]);  // [78, 'n', 0, 1]
-removeFirstElem([5]);  // []
-removeFirstElem([]);  // []
+removeFirstElem([6, 78, "n", 0, 1]); // [78, 'n', 0, 1]
+removeFirstElem([5]); // []
+removeFirstElem([]); // []
