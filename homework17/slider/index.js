@@ -4,8 +4,10 @@ const prevSlideBtn = document.querySelector(".prev-slide");
 let index = 0;
 let timer;
 
-window.addEventListener("load",function() {
-    timer = setInterval(function(){nextSlide()}, 4000);
+window.addEventListener("load", function () {
+    timer = setInterval(function () {
+        nextSlide()
+    }, 4000);
 });
 
 nextSlideBtn.addEventListener("click", () => {

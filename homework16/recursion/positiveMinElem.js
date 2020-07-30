@@ -4,7 +4,7 @@
  */
 
 // As long as it is working don't touch ))
-const min = (array) => {
+const getMinPositiveElement = (array) => {
     let numArray = array;
     numArray.sort((a, b) => a - b);
 
@@ -23,6 +23,6 @@ const min = (array) => {
     return iter(array);
 };
 
-console.log(min([56, -9, 87, -23, 0, -105, 55, 1])); //0
-console.log(min([45, -9, 15, 5, -78])); //5
-console.log(min([-5, -9, -111, -1000, -7])); //-1
+console.log(getMinPositiveElement([56, -9, 87, -23, 0, -105, 55, 1])); //0
+console.log(getMinPositiveElement([45, -9, 15, 5, -78])); //5
+console.log(getMinPositiveElement([-5, -9, -111, -1000, -7])); //-1

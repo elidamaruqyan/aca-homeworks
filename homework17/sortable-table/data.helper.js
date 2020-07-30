@@ -1,16 +1,16 @@
-import { SORTING_ORDERS } from "./constants.js";
+import {SORTING_ORDERS} from "./constants.js";
 
 export const sortStudents = (students, order) => {
-  if (order === SORTING_ORDERS.random) {
-    return students;
-  }
-
-  // @TODO: refactor
-  return students.slice().sort((a, b) => {
-    if (order === SORTING_ORDERS.asc) {
-      return a.age > b.age ? 1 : -1;
-    } else {
-      return a.age > b.age ? -1 : 1;
+    if (order === SORTING_ORDERS.random) {
+        return students;
     }
-  });
+
+    // @TODO: refactor
+    return students.slice().sort((a, b) => {
+        if (order === SORTING_ORDERS.asc) {
+            return a.age > b.age ? 1 : -1;
+        } else {
+            return a.age > b.age ? -1 : 1;
+        }
+    });
 };

@@ -11,6 +11,7 @@ const addTodo = () => {
 };
 
 const renderTodo = (todo) => {
+    console.log(todo);
     todo.forEach((item, index) => {
         addTodo(item.innerText);
         item.addEventListener('click', () => {
@@ -19,6 +20,9 @@ const renderTodo = (todo) => {
                 todoItems[0].isCompleted = true;
                 todoItems[0].classList.add('done')
             } else if (todoItems[index - 1].isCompleted !== true) {
+                if (todoItems[index - 1] < 0) {
+                    todoItems[index - 1] = todoItems[0]
+                }
                 return false;
             }
 

@@ -9,11 +9,11 @@ const formSerialize = () => {
     for (let i = 0; i < inputs.length - 1; i++) {
         if (inputs[i].value.trim() === "") {
             inputs[i].classList.add("error")
-        }else{
+        } else {
             inputs[i].classList.remove("error");
         }
         if (inputs[i].type === "radio") {
-            if(inputs[i].checked) {
+            if (inputs[i].checked) {
                 values[inputs[i].name] = inputs[i].value;
             }
         } else {
