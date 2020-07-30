@@ -1,7 +1,7 @@
 let setA = new Set([1, 2, 3, 4]);
 let setC = new Set([3, 4, 5, 6]);
 
-const difference = (setA, setB) => {
+const getDifference = (setA, setB) => {
   const _difference = new Set();
 
   for (let item of setA.values()) {
@@ -13,7 +13,7 @@ const difference = (setA, setB) => {
   return _difference;
 };
 
-difference(setA, setC); // => Set [1, 2]
+getDifference(setA, setC); // => Set [1, 2]
 
 //MDN Solution
 const difference = (setA, setB) => {
