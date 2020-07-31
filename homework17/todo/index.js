@@ -1,17 +1,23 @@
 const listItem = document.querySelectorAll('.list__items');
+
 let todoItems = [];
 
-const addTodo = () => {
-    const todo = {
-        isCompleted: false,
-    };
-
-    todoItems.push(todo);
-    console.log(todoItems)
+const state = {
+    inputValue: "",
+    toos: [
+        {
+            isComplete: true,
+        },
+        {
+            isComplete: false,
+        },
+        {
+            isComplete: false,
+        },
+    ],
 };
 
 const renderTodo = (todo) => {
-    console.log(todo);
     todo.forEach((item, index) => {
         addTodo(item.innerText);
         item.addEventListener('click', () => {

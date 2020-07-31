@@ -13,11 +13,17 @@ window.addEventListener("load", function () {
 nextSlideBtn.addEventListener("click", () => {
     clearInterval(timer);
     nextSlide();
+    timer = setInterval(function () {
+        nextSlide()
+    }, 4000);
 });
 
 prevSlideBtn.addEventListener("click", () => {
     clearInterval(timer);
     prevSlide();
+    timer = setInterval(function () {
+        nextSlide()
+    }, 4000);
 });
 
 const nextSlide = () => {
