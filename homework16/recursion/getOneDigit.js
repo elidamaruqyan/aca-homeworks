@@ -8,7 +8,6 @@ const getOneDigit = (num) => {
 
   let sum = stringifiedNumber.reduce((acc, item) => {
     acc += parseInt(item);
-    console.log(acc);
     return acc;
   }, 0);
   return sum >= 10 ? getOneDigit(sum) : sum;
