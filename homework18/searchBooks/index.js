@@ -10,7 +10,24 @@ let rows = 5;
 let url;
 
 const state = {
-    inputValue: ""
+    inputValue: "",
+    pagingOptions : {
+        url,
+        totalCount,
+        itemPerPage: 100,
+        initialPage,
+        currentPage: 0,
+
+        get currentIndex() {
+            console.log(this.itemPerPage * this.currentPage - 1);
+            return this.itemPerPage * this.currentPage - 1;
+        },
+
+        get totalPage() {
+            console.log(Math.ceil(this.totalCount / this.itemPerPage));
+            return Math.ceil(this.totalCount / this.itemPerPage)
+        },
+    }
 };
 
 getBookBtn.addEventListener("click", (e) => {
@@ -20,11 +37,12 @@ getBookBtn.addEventListener("click", (e) => {
     getBook(url);
 });
 
-
 const getBook = (url) => {
     console.log(url);
     doGet(url)
         .then((books) => {
+            state.pagingOptions.totalCount = books.numFound;
+            state.pagingOptions.initialPage = books.start;
             const pagingOptions = {
                 totalCount: books.numFound,
                 itemPerPage: 5,

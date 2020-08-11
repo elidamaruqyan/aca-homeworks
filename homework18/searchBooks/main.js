@@ -4,11 +4,31 @@ import {routes} from "../helpers/routes.helper.js";
 const searchInput = document.querySelector("#searchBook");
 const searchBtn = document.querySelector("#getBook");
 const searchedResult = document.querySelector("#booksWrapper");
+const list = document.createElement("ul");
 
 let url;
 const state = {
     inputValue: "",
+    pagingOptions: {
+        totalCount: "",
+        itemPerPage: 100,
+        initialPage: "",
+        currentPage: 0,
 
+        get currentIndex() {
+            console.log(this.itemPerPage * this.currentPage - 1);
+            return this.itemPerPage * this.currentPage - 1;
+        },
+
+        get totalPage() {
+            const count = Math.ceil(this.totalCount / this.itemPerPage);
+            new Array(count).fill(1).forEach((_, index) => {
+                console.log(index)
+            });
+
+            return count
+        },
+    }
 };
 
 searchBtn.addEventListener("click", (e) => {
@@ -19,21 +39,26 @@ searchBtn.addEventListener("click", (e) => {
     }
 
     url = routes.getBook(state.inputValue);
+
     getBook(url);
+
+    handlePagination();
 });
 
 const getBook = (url) => {
     doGet(url)
         .then((data) => {
-            console.log(data);
-            console.log(url);
-            const list = document.createElement("ul");
-            data.docs.forEach((book) => {
+            state.pagingOptions.totalCount = data.num_found;
+            state.pagingOptions.initialPage = data.start;
+            console.log(state);
+
+            const slicedItems = data.docs.slice(0, 3);
+            slicedItems.forEach((book) => {
                 const listItem = document.createElement("li"),
-                      title = document.createElement("h2"),
-                      authorName = document.createElement("h5"),
-                      firstPublishYear = document.createElement("h4"),
-                      subject = document.createElement("p");
+                    title = document.createElement("h2"),
+                    authorName = document.createElement("h5"),
+                    firstPublishYear = document.createElement("h4"),
+                    subject = document.createElement("p");
 
                 title.innerText = "Title: " + book.title;
                 authorName.innerText = "Author Name: " + book.author_name;
@@ -41,9 +66,10 @@ const getBook = (url) => {
                 subject.innerText = "Subject: " + book.subject;
 
                 listItem.append(title, authorName, firstPublishYear);
-
                 list.appendChild(listItem);
+
             });
+
             searchedResult.innerHTML = "";
             searchedResult.append(list)
         });

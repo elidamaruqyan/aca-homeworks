@@ -1,5 +1,12 @@
-export const require = {
-    FILMS_URL: "https://ghibliapi.herokuapp.com",
-    DOCS_URL: "https://dog.ceo/api/breed/",
-    BOOKS_URL: "http://openlibrary.org/search.json"
+/**
+ * Configurable data in project
+ *
+ * @const {Object}
+ */
+export const Config = {
+    apiURLs: {
+        filmsUrl: 'https://ghibliapi.herokuapp.com',
+        docsUrl: 'https://dog.ceo/api/breed/',
+        booksUrl: 'http://openlibrary.org/search.json',
+    }
 };

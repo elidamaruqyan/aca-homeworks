@@ -1,3 +1,5 @@
+//@TODO ADD LOGIC FOR TODO LIST
+
 const listItem = document.querySelectorAll('.list__items');
 
 let todoItems = [];

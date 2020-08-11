@@ -1,15 +1,15 @@
-import {require} from "../configs/config.js";
+import {Config } from "../configs/config.js";
 
 export const routes = {
     getAllFilms() {
-        return `${require.FILMS_URL}/films`;
+        return `${Config.apiURLs.filmsUrl}/films`;
     },
 
     getDocsPic(breed) {
-        return `${require.DOCS_URL + breed}/images/random`
+        return `${Config.apiURLs.docsUrl + breed}/images/random`
     },
 
     getBook(bookName) {
-        return `${require.BOOKS_URL + '?q=' + bookName}`
+        return `${Config.apiURLs.booksUrl + '?q=' + bookName}`
     }
 };
