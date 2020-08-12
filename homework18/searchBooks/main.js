@@ -1,13 +1,17 @@
 import {doGet} from "../helpers/request.helper.js";
 import {routes} from "../helpers/routes.helper.js";
 
+/*UI Elements*/
+const loader = document.querySelector("#overlay");
+
 const listWrapper = document.getElementById("list");
 const paginationWrapper = document.getElementById("pagination");
 const searchBtn = document.querySelector("#getBook");
 const searchInput = document.querySelector("#searchBook");
-const loader = document.querySelector("#overlay");
 const itemEl = document.createElement("div");
 const template = document.createElement("div");
+const totalCountElem = document.querySelector('.total-count');
+
 const arr = [];
 
 let url;
@@ -40,6 +44,8 @@ const getBook = (url) => {
             loader.setAttribute('hidden', '');
             start = data.start;
             totalCount = Math.ceil(data.numFound / rows);
+            totalCountElem.innerHTML = "";
+            totalCountElem.innerHTML = data.numFound;
 
             data.docs.forEach((item) => {
                 arr.push(item);
@@ -51,7 +57,6 @@ const getBook = (url) => {
 };
 
 const renderList = (items, wrapper, rows_per_page, page) => {
-    wrapper.innerHTML = "";
     page--;
 
     let start = rows_per_page * page;
@@ -65,24 +70,26 @@ const renderList = (items, wrapper, rows_per_page, page) => {
 };
 
 const createItemsElements = (list) => {
-    template.innerHTML = "";
-
     list.forEach(item => {
-        const title = document.createElement("h2"),
+        const listItem = document.createElement("div"),
+            title = document.createElement("h2"),
             authorName = document.createElement("h5"),
             firstPublishYear = document.createElement("h4"),
             subject = document.createElement("p");
 
+        listItem.classList.add("searched-item");
         title.innerText = "Title: " + item.title;
         authorName.innerText = "Author Name: " + item.author_name;
         firstPublishYear.innerText = "First Publish Year: " + item.first_publish_year;
         subject.innerText = "Subject: " + item.subject;
 
-        itemEl.append(title, authorName, firstPublishYear);
+        listItem.append(title, authorName, firstPublishYear);
+        itemEl.appendChild(listItem);
+        itemEl.classList.add("grid-container")
     });
 
-    template.innerHTML = "";
     template.append(itemEl);
+    template.classList.add("template");
 
     return template;
 };

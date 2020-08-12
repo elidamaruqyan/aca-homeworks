@@ -6,19 +6,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <!--Loader-->
 <div id="overlay" hidden>
     <div id="spinner"></div>
 </div>
 
-<!--Search form-->
-<form action="" id="searchForm">
-    <input type="text" id="searchBook">
-    <button type="submit" class="getBook" id="getBook">Get book</button>
-</form>
+<header>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img src="assets/openlibrary-logo-tighter.svg" alt="page-logo" width="100">
+                </a>
+            </li>
+            <li class="header-text">
+                <p>Search your book</p>
+            </li>
+            <li>
+                <h4>Total count of results</h4>
+                <span class="total-count"></span>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-<!--Searched result-->
 <main>
+    <!--Search form-->
+    <form id="content" class="search-form">
+        <div>
+            <input type="text" name="input" class="search-input" id="searchBook">
+            <span type="reset" class="search" id="search-span"></span>
+        </div>
+        <button type="submit" class="get-book" id="getBook">Get book</button>
+    </form>
+
+    <!--Searched result-->
     <div class="list" id="list"></div>
     <div class="pagination" id="pagination"></div>
 </main>
