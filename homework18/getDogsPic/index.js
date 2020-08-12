@@ -1,5 +1,6 @@
 import {doGet} from "../helpers/request.helper.js";
 import {routes} from "../helpers/routes.helper.js";
+import {append} from "../helpers/appendElement.js";
 
 const selectDog = document.querySelector("#chooseDogs");
 const wrapper = document.querySelector('.demo');
@@ -20,7 +21,7 @@ const getDogPic = (url) => {
     return doGet(url)
         .then((dogs) => {
             img.src = dogs.message;
-            wrapper.append(img)
+            append(wrapper, img)
         })
 };
 

@@ -1,5 +1,8 @@
 import {doGet} from "../helpers/request.helper.js";
 import {routes} from "../helpers/routes.helper.js";
+import {append} from "../helpers/appendElement.js";
+import {createNode} from "../helpers/createElement.helper.js";
+
 
 const list = document.querySelector(".wrapper");
 const url = routes.getAllFilms();
@@ -9,11 +12,12 @@ const getAllFilms = (url) => {
         .then((films) => {
             console.log(films);
             films.forEach((elem) => {
-                const listItem = document.createElement("div"),
-                    title = document.createElement("h2"),
-                    releaseDate = document.createElement("time"),
-                    director = document.createElement("h4"),
-                    desc = document.createElement("p");
+
+                const listItem = createNode("div"),
+                      title = createNode("h2"),
+                      releaseDate = createNode("time"),
+                      director = createNode("h4"),
+                      desc = createNode("p");
 
                 listItem.classList.add("movie-card");
                 title.classList.add("movie-card__title");
@@ -25,7 +29,7 @@ const getAllFilms = (url) => {
                 desc.innerText = "Description: " + elem.description;
 
                 listItem.append(title, releaseDate, director, desc);
-                list.appendChild(listItem);
+                append(list, listItem);
             });
             return list;
         });

@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Search Book</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--Loader-->
+<div id="overlay" hidden>
+    <div id="spinner"></div>
+</div>
 
+<!--Search form-->
 <form action="" id="searchForm">
     <input type="text" id="searchBook">
     <button type="submit" class="getBook" id="getBook">Get book</button>
 </form>
 
+<!--Searched result-->
 <main>
-    <ul id="booksWrapper"></ul>
-    <div class="pageNumbers" id="pagination"></div>
+    <div class="list" id="list"></div>
+    <div class="pagination" id="pagination"></div>
 </main>
 
 <script type="module" src="main.js"></script>
