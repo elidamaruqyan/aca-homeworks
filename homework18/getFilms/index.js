@@ -3,16 +3,13 @@ import {routes} from "../helpers/routes.helper.js";
 import {append} from "../helpers/appendElement.js";
 import {createNode} from "../helpers/createElement.helper.js";
 
-
 const list = document.querySelector(".wrapper");
 const url = routes.getAllFilms();
 
 const getAllFilms = (url) => {
     return doGet(url)
         .then((films) => {
-            console.log(films);
             films.forEach((elem) => {
-
                 const listItem = createNode("div"),
                       title = createNode("h2"),
                       releaseDate = createNode("time"),

@@ -32,11 +32,12 @@ searchBtn.addEventListener("click", (e) => {
     }
 
     url = routes.getBook(state.inputValue);
-
+    listWrapper.innerHTML = "";
     getBook(url);
 
 });
 
+// @TODO REMOVE INFO AFTER NEW SEARCH
 const getBook = (url) => {
     loader.removeAttribute('hidden');
     return doGet(url)
@@ -57,13 +58,12 @@ const getBook = (url) => {
 };
 
 const renderList = (items, wrapper, rows_per_page, page) => {
+    wrapper.innerHTML = "";
     page--;
 
     let start = rows_per_page * page;
-
     let end = start + rows_per_page;
     let paginatedItems = items.slice(start, end);
-
     let template = createItemsElements(paginatedItems);
 
     wrapper.appendChild(template);
@@ -71,6 +71,13 @@ const renderList = (items, wrapper, rows_per_page, page) => {
 
 const createItemsElements = (list) => {
     list.forEach(item => {
+        if(!item.title || !item.author_name ||  !item.first_publish_year || !item.subject ){
+            return false
+        }
+        if(item.subject.length > 5){
+            return item.subject
+        }
+        console.log(item.subject.length);
         const listItem = document.createElement("div"),
             title = document.createElement("h2"),
             authorName = document.createElement("h5"),
@@ -83,14 +90,13 @@ const createItemsElements = (list) => {
         firstPublishYear.innerText = "First Publish Year: " + item.first_publish_year;
         subject.innerText = "Subject: " + item.subject;
 
-        listItem.append(title, authorName, firstPublishYear);
+        listItem.append(title, authorName, firstPublishYear, subject);
         itemEl.appendChild(listItem);
         itemEl.classList.add("grid-container")
     });
 
     template.append(itemEl);
     template.classList.add("template");
-
     return template;
 };
 
@@ -111,13 +117,14 @@ const setupPagination = (items, wrapper) => {
 const paginationButton = (page, items) => {
     let button = document.createElement("button");
     button.innerText = page;
-
     if (currentPage === page) button.classList.add("active");
 
     button.addEventListener("click", function () {
         currentPage = page;
         renderList(items, listWrapper, rows, currentPage);
+        listWrapper.innerHTML = "";
         getBook(url + '&page=' + `${currentPage}`);
+
         let current_btn = document.querySelector(".pagination button.active");
         current_btn.classList.remove("active");
         button.classList.add("active");
