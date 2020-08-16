@@ -21,8 +21,20 @@ body {
     text-transform: uppercase;
 }
 
-button.active {
-    background-color: red;
+.pagination button.active {
+    border-bottom: 1px solid red;
+}
+
+.pagination button {
+    width: 40px;
+    height: 40px;
+    border: unset;
+    background: unset;
+    cursor: pointer;
+}
+
+.pagination button:focus{
+    outline: none;
 }
 
 .search-form {
