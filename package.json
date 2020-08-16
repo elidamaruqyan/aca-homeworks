@@ -1,0 +1,24 @@
+{
+  "name": "aca-homeworks",
+  "version": "1.0.0",
+  "description": "Tasks that have been solved during my  ACA training course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elidamaruqyan/aca-homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elidamaruqyan/aca-homeworks/issues"
+  },
+  "homepage": "https://github.com/elidamaruqyan/aca-homeworks#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
