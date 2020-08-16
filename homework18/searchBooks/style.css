@@ -21,6 +21,10 @@ body {
     text-transform: uppercase;
 }
 
+.pagination {
+    margin: 50px;
+}
+
 .pagination button.active {
     border-bottom: 1px solid red;
 }
@@ -33,7 +37,7 @@ body {
     cursor: pointer;
 }
 
-.pagination button:focus{
+.pagination button:focus {
     outline: none;
 }
 

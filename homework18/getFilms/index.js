@@ -1,7 +1,7 @@
 import {doGet} from "../helpers/request.helper.js";
 import {routes} from "../helpers/routes.helper.js";
-import {append} from "../helpers/appendElement.js";
-import {createNode} from "../helpers/createElement.helper.js";
+import {append} from "../helpers/render.js";
+import {createNode} from "../helpers/render.js";
 
 const list = document.querySelector(".wrapper");
 const url = routes.getAllFilms();

@@ -1,6 +1,6 @@
 import {doGet} from "../helpers/request.helper.js";
 import {routes} from "../helpers/routes.helper.js";
-import {append} from "../helpers/appendElement.js";
+import {append} from "../helpers/render.js";
 
 const selectDog = document.querySelector("#chooseDogs");
 const wrapper = document.querySelector('.demo');

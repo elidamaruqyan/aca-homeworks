@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/elidamaruqyan/aca-homeworks#readme",
   "devDependencies": {
-    "eslint": "^7.7.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
   }
